@@ -7,7 +7,7 @@ To run this project, please follow below command line:
 * `make lint`
 * `cargo run -- --help` 
 * `cargo run -- marco --name Marco`
-* `cargo run -- marco --name Marco`
+* `cargo run -- marco --name Changhao`
 
 **result:**
 ![result](./result.png)

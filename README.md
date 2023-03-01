@@ -12,6 +12,8 @@ This is my weekly demo for ***Duke IDS-721***
   build a ML Model by using rust-bert hugging face to help us translate English to French [repo](./week4-translate)  
 * ***Week5***  
   build a small project to test rust parallel [repo](./week5-parallel)
+* ***Week6***  
+  build a project to simulate rust logging tool [repo](./week6-log)
 
 ## References
 

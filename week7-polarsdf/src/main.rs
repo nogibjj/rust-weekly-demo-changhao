@@ -52,19 +52,19 @@ fn main() {
     let args = Cli::parse();
     match args.command {
         Some(Commands::Print { path, rows }) => {
-            let df = week7-polarsdf::read_csv(&path);
+            let df = polarsdf::read_csv(&path);
             println!("{:?}", df.head(Some(rows)));
         }
         Some(Commands::Describe { path }) => {
-            let df = week7-polarsdf::read_csv(&path);
+            let df = polarsdf::read_csv(&path);
             println!("{:?}", df);
         }
         Some(Commands::Schema { path }) => {
-            let df = week7-polarsdf::read_csv(&path);
+            let df = polarsdf::read_csv(&path);
             println!("{:?}", df.schema());
         }
         Some(Commands::Shape { path }) => {
-            let df = week7-polarsdf::read_csv(&path);
+            let df = polarsdf::read_csv(&path);
             println!("{:?}", df.shape());
         }
         Some(Commands::Sort {
@@ -73,7 +73,7 @@ fn main() {
             rows,
             order,
         }) => {
-            let df = week7-polarsdf::read_csv(&path);
+            let df = polarsdf::read_csv(&path);
             let country_column_name = "Country Name";
             //select the country column and the year string passed in and return a new dataframe
             let vs = df.select_series([country_column_name, &year]).unwrap();

@@ -1,7 +1,7 @@
 //command-line tool that reads a CSV file and prints the contents of the file as a DataFrame
 use clap::Parser;
 use polars::prelude::*;
-const CSV_FILE: &str = "src/data/global-life-expt-2022.csv";
+const CSV_FILE: &str = "./data/global-life-expt-2022.csv";
 
 #[derive(Parser)]
 //add extended help

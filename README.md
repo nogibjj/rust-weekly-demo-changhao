@@ -16,6 +16,8 @@ This is my weekly demo for ***Duke IDS-721***
   build a project to simulate rust logging tool [repo](./week6-log)
 * ***Week7***  
   build a project to use rust tool called polars [repo](./week7-polarsdf)
+* ***Week9***  
+  build a project to use rust-bert hugging face to help us summarize the wikipedia content  [repo](./week9-hfdemo)
 
 ## References
 

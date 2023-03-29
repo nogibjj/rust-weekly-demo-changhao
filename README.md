@@ -18,6 +18,8 @@ This is my weekly demo for ***Duke IDS-721***
   build a project to use rust tool called polars [repo](./week7-polarsdf)
 * ***Week9***  
   build a project to use rust-bert hugging face to help us summarize the wikipedia content  [repo](./week9-hfdemo)
+* ***Week10***  
+  build a project with actix framework and use REST API to implement the web calculator  [repo](./week10-actix)
 
 ## References
 

@@ -22,6 +22,8 @@ This is my weekly demo for ***Duke IDS-721***
   build a project with actix framework and use REST API to implement the web calculator  [repo](./week10-actix)
 * ***Week11***  
   build a project to realize web assembly  [repo](./week11-webassembly)
+* ***Week12***  
+  build a Rust client server game for the terminal that lets you play the Roulette casino game with your friends [repo](./week11-webassembly)
 
 ## References
 

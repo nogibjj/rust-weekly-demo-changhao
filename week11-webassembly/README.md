@@ -1,4 +1,4 @@
-# ***Demo10 Rust Actix REST API***
+# ***Demo11 Web Assembly***
 
 In this project, we have re-built a  small project to realize web assembly
 To run this project, please follow below command line:  
